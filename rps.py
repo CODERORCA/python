@@ -1,60 +1,52 @@
-# Simple rock paper scissors game
-
-# Imports
+# import random library
 import random
 
-# Base game
-def game():
-
-	# list of options
-	options = ["Rock","Paper","Scissors"]
-
-	# Player and Computer input
-	player = input("Type your choice: ")
-	computer = random.choice(options)
-
-	# Storing values in a dict
-	choices = {
-	"Player": player,
-	"Computer": computer
+# base of game
+def base():
+	options = ["rock","paper","scissor"]	# possible choices
+	player = input("Make your choice: ")	# player has to make input
+	computer = random.choice(options)	# computer asked to make input with the help of random choice
+	
+# store values of choices in a dict called "choices" (key: value)
+	selection = {
+	"Player": player,	# store the player input assigned to key called "Player"
+	"Computer": computer,	# store the computer input assigned to key called "Computer"
 	}
 
-	return choices
+# end iteration and return the values stored in the dict named "choices", will be later used to print the values
+	return selection
 
-# Conditional setting
-def check(player,computer):
-	
-	# Reveal choices
-	print(f"You choose {player}, Computer choose {computer}")
-	
-	# Tie
-	if player == computer:
-		return "The game is a tie"
-	
-	# Player choose Rock
-	elif player == "Rock":
-		if computer == "Scissors":
-			return "The Player wins"
+# execution of game
+def game(player,computer):		# passing player and computer variables as arguments to the function
+	print(f"Player: {player} \n vs \nComputer: {computer}")		# print out the choices made, stored inside the aforementioned variables
+
+# conditional statements
+	if player == computer:		# Tie if both participants have made the same choice
+		return "Tie"
+
+# Player has Rock
+	elif player == "rock":
+		if computer == "scissor":
+			return "Win"
 		else:
-			return "The Computer takes the win"
+			return "Loss"
 
-	# Player choose Paper
-	elif player == "Paper":
-		if computer == "Rock":
-			return "The Player wins"
+# Player has Paper
+	elif player == "paper":
+		if computer == "rock":
+			return "Win"
 		else:
-			return "The Computer takes the win"
+			return "Loss"
 
-	# Player choose Scissors
-	elif player == "Scissors":
-		if computer == "Paper}":
-			return "The Player wins"
+# Player has Scissor
+	elif player == "scissor":
+		if computer == "paper":
+			return "Win"
 		else:
-			return "The Computer takes the win"
+			return "Loss"
 
-# Call functions
-choices = game()
 
-# Printing values assigned to keys in dict
-results = check(choices["Player"], choices["Computer"])
-print(results)
+# Calling functions
+choices = base()	# call base() and assign returned values in variable 'choices'
+results = game(choices["Player"], choices["Computer"])		# call game() and return the values of choices according to keys from the dict
+print(results)	# print the results according to choice from return statements in game()
