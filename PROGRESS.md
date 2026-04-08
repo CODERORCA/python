@@ -1,6 +1,7 @@
 # Progress
 ## Programms written
-### 1. Rock. Paper, Scissor game (rockPaperScissor.py)
+### 1. Rock. Paper, Scissor game (rps.py)
+### 2. Rock, Paper, Scissor game with while loop (rps2.py))
 
 ## Knowledge covered:
 	- basic functions and methods
@@ -12,5 +13,11 @@
 		- if, elif, else
 		- refactoring
 		- nested if
+	- loops:
+		- while
+		- break
+	- imports:
+		- random
+		- sys
 
 More skills will come
