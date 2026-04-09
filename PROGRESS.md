@@ -29,5 +29,8 @@
 	- loops:
 		- while
 		- break
+	- stacks:
+		- call stack
+		- frames objects
 
 More skills will come
