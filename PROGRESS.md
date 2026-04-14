@@ -31,6 +31,10 @@
 		- break
 	- stacks:
 		- call stack
-		- frames objects
+		- frame objects
+	- scopes:
+		- local
+		- global
+		- global statement
 
 More skills will come
