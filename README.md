@@ -11,5 +11,9 @@ Every program in this repository is written without the use of AI! The purpose o
 ## Documentary of progress
 All progress are being documented in the PROGRESS.md file. (Subject to changes)
 
+## Ignore main.py
+I use this file as a testing ground. After finishing a chapter or topic, I put what I learned to a test and write topics that I covered out of my own memory.
+No cheating, no AI, no textbook, no peeking. Just my plain knowledge and my Geany IDE.
+
 ## License
 [MIT License](https://github.com/CODERORCA/python/blob/main/LICENSE)

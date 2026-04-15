@@ -1,20 +1,26 @@
-# local and global scope
+# import
+import time,sys
 
-one = 'a'
+indent = 0
+indentIncreasing = True
 
-def alpha():
-	global one
-	one = 'b'
-	print(one)
-	beta()
+try:
+	while True:
+		print(' ' * indent, end = '')
+		print('####')
+		time.sleep(0.1)
+		print('*******')
 
-def beta():
-	one = 'c'
-	print(one)
-	charlie()
+		
+		if indentIncreasing:
+			indent += 1
+			if indent == 10:
+				indentIncreasing = False
+		
+		else:
+			indent -= 5
+			if indent == 0:
+				indentIncreasing = True
 
-def charlie():
-	print(one)
-
-alpha()
-print(one)
+except KeyboardInterrupt:
+	sys.exit()
