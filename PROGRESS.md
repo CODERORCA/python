@@ -9,10 +9,12 @@ Mandatory basic knowledge that every developer should know is not being covered 
 	- if, elif, else
 	- nested if
 	- refactoring
-- exception handling:
+- error handling:
 	- try
 	- except:
 		- ZeroDivisonError
+		- ValueError
+		- KeyboardInterrupt
 - functions:
 	- define
 	- parameter
@@ -27,7 +29,17 @@ Mandatory basic knowledge that every developer should know is not being covered 
 		- .choice()
 	- sys:
 		- .exit()
-- input
+- input:
+	- abs()
+	- int()
+- lists:
+	- access items
+	- concatenate lists
+	- length of list
+	- list value
+	- index
+	- replicate lists
+	- remove items
 - loops:
 	- for
 	- while:

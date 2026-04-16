@@ -47,7 +47,3 @@ print('')
 theta = ['sierra','tango','uniform','victor']
 del theta[2]
 print(theta)
-
-iota = ['alfa','bravo','charlie']
-iota.add = 'whiskey'
-print(iota)
