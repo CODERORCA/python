@@ -1,15 +1,17 @@
 def collatz(n):
-
 	while n != 1:
-		print(n)
 		if n % 2 == 0:
 			n //= 2
+			print(n)
 		else:
 			n = (n * 3) + 1
 	print(n)
 
 try:
-	v = abs(int(input('Type your value: ')))
-	collatz(v)
+	print('Type in your number')
+	v = int(input())
+	if v < 0:
+		v = abs(v)
+		print('No negative number!')
 except ValueError:
 	print('you must type an integer')
