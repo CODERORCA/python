@@ -1,11 +1,4 @@
-callsign = []
+phonetics = ['alfa','bravo','charlie','delta']
 
-while True:
-	print(f'Type the {str(len(callsign)+ 1)}. Phonetic or type nothing to skip')
-	phonetic = input()
-	if phonetic == '':
-		break
-	callsign += [phonetic]
-print('The callsigns are:')
-for phonetic in callsign:
-	print(f' - {phonetic}')
+for index,item in enumerate(phonetics):
+	print(f'the Index for {item} is {index}')
