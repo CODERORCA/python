@@ -1,33 +1,52 @@
-# About repo
-This repo is my portfolio, made with the intent to showcase my skills and knowledge I have gained using Python. Over time, I am hoping to add more complex files as programs in the future.
+# Skills & Concepts Showcase
 
-## Portfolio
-### Files
-Whether I complete a topic or coding challenge, it gets committed to this repository. For the coding challenge, I created a folder named rite_of_coding.
+This repository is a curated collection of Python-based examples that demonstrate not only what I can build, but how I think, learn, and solve problems.
 
-### Conduct
-Each day I spend my time studying, learning and gaining knowledge. I am doing it at a pace I feel to be most efficient, to ensure I am capable to deliver clean, structured and scalable code under any circumstance.
+It is intentionally structured to give a clear, direct view of my technical abilities. Each script focuses on specific concepts such as algorithms, data structures, and core programming principles, with an emphasis on clarity, correctness, and depth of understanding.
 
-### Rite of Coding
-The Rite of Coding is a special moment allocated in my daily activity. The sources I work with present me with tasks I have to complete. Each day, the latest topic which has been completed undergoes this rite of Coding, and a randomly choosen one from the previous one. This way, I am able to ensure my knowledge and skills are firm and sharp, and if gaps appear, I know where to work on. Only if a coding challenge has been completed free times flawlessly, will it get committed.
+## Purpose
 
-### Conditions
-The conditions are simple.
+This repository exists to:
+- Provide a transparent view of my technical skill set
+- Demonstrate structured problem-solving and analytical thinking
+- Highlight my ability to write clean, maintainable code
+- Complement my larger, real-world projects
 
-Forbidden:
- - Internet
- - Textbook
- - A.I.
- - Any form of cheat sheet (paper or digital)
- - peeking into previously written files and programs
+## Learning Approach
 
-Allowed:
- - pure skill
- - knowledge
- - Geany IDE
+My work is driven by consistency and depth:
 
-## Key Audience Target
-The main audience are for employers who would like to get a direct, raw and unfiltered overview of my hard skills. Nothing less.
+- I study a specific topic every day, taking the time to fully understand not just *what* something does, but *why* it works and *how* it behaves in different contexts.
+- I prioritize quality over speed. I deliberately avoid shallow learning in favor of strong, foundational knowledge.
+- Each day concludes with coding challenges:
+  - One focused on the topic studied that day
+  - One randomly selected from previously covered material to reinforce retention and adaptability
 
-## License
-[MIT License](https://github.com/CODERORCA/python/blob/main/LICENSE)
+This approach ensures both depth and long-term consistency, which is directly reflected in this repository.
+
+## Why This Repository Exists Alongside My Main Project
+
+While working on a larger project, I identified gaps in my foundational knowledge that were limiting my ability to think and operate effectively as a developer.
+
+Rather than pushing forward with partial understanding, I made a deliberate decision to step back and strengthen my core skills. This repository is the result of that decision.
+
+My main project involves more complex concepts, and to approach them properly, I am reinforcing the fundamentals while progressively building back up to advanced topics. The goal is to develop the kind of problem-solving ability that comes from repeated practice and deep understanding—not memorization.
+
+## What You’ll Find Here
+
+- Focused problem-solving exercises
+- Implementations of core algorithms and logic
+- Exploration of Python features and patterns
+- Clean, minimal examples designed for readability and precision
+
+Each file is intentionally concise, prioritizing understanding over unnecessary complexity.
+
+## Full Projects
+
+For larger, real-world applications of these skills, see my main projects:
+
+https://github.com/CODERORCA/bugtracker-api
+
+## Final Note
+
+This repository reflects a disciplined and methodical approach to software development. It represents not only my current capabilities, but also my commitment to building strong fundamentals and continuously improving over time.
