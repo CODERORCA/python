@@ -23,6 +23,7 @@ My work is driven by consistency and depth:
   - One randomly selected from previously covered material to reinforce retention and adaptability
 
 This approach ensures both depth and long-term consistency, which is directly reflected in this repository.
+For consistency and to prevent confusion, I am using NATO phonetics and the Greek alphabet as values, items, arguments and for many more uses.
 
 ## Why This Repository Exists Alongside My Main Project
 
