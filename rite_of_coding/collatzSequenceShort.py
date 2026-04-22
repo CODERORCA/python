@@ -13,5 +13,7 @@ try:
 	if v < 0:
 		v = abs(v)
 		print('No negative number!')
+	else:
+		collatz(v)
 except ValueError:
 	print('you must type an integer')

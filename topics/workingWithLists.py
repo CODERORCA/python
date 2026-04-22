@@ -1,7 +1,7 @@
 from phonetics import phon1,phon2,phon3,phon4,allPhon
 import random
-'''
-# ~ Working with lists I
+
+# ~ Working with lists
 # ~ bad example storing values
 
 phoneticA = 'alfa'
@@ -85,7 +85,7 @@ else:
 # ~ multiple assignment trick
 callsign1, callsign2, callsign3, callsign4 = phon1
 print(phon1)
-'''
+
 # ~ Example List
 # ~ phonetics = ['alfa','bravo','charlie','delta']
 
@@ -100,3 +100,55 @@ print(rnd)
 
 rnds = random.shuffle(phon2)
 print(phon2)
+
+# ~ Finding a Value in a List with index()
+item = phon1.index('Alfa')
+print(item)
+
+# ~ In case of duplicates, it returns the index of the first item that is found
+myList = ['Alfa','Bravo','Charlie','Bravo']
+myItem = myList.index('Bravo')
+print(myItem)
+
+# ~ add a value to a list with append() and insert()
+# ~ append() appends the item to the end of the list
+myList2 = ['Foxtrot','Golf','Hotel']
+myList2.append('India')
+print(myList2)
+
+# ~ insert() allows targeinsert
+myList2.insert(0,'Echo')
+print(myList2)
+
+# ~ remove an item with remove() when not knowing the index but the item or list value
+myList2.remove('Golf')
+print(myList2)
+
+# ~ remove an item with del statement when knowing the index of an item but not the list value
+del myList2[2]
+print(myList2)
+
+# ~ sort lists with sort()
+myList3 = ['Zulu','Juliet','Bravo','Romeo']
+myList3.sort()
+print(myList3)
+
+# ~ pass True to reverse keyword argument to sort in reverse order
+myList3.sort(reverse=True)
+print(myList3)
+
+# ~ or just use .reverse() to reverse the order of items in a list
+myList4 = ['Zulu','Juliet','Bravo','Romeo']
+myList4.reverse()
+print(myList3)
+
+# ~ interestingly, because of ASCIIbetical order, uppercase letter strings get prinfirst
+myList5 = ['Zulu','Juliet','Bravo','Romeo','zulu','juliet','bravo','romeo']
+myList5.sort()
+print(myList5)
+
+# ~ to sort the values in alphabetical order, pass the key=str.lower kwarg
+myList5.sort(key=str.lower)
+print(myList5)
+
+# ~ see magic8BallList.py to see how using lists makes writing code for this game more elegant

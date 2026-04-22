@@ -21,8 +21,10 @@ Mandatory basic knowledge that every developer should know is not being covered 
 	- call
 	- arguments
 	- pass
-- methods:
-	- access values
+	- enumerate()
+	- random:
+		- .choice
+		- .shuffle
 - imports:
 	- random:
 		- .randint()
@@ -38,8 +40,21 @@ Mandatory basic knowledge that every developer should know is not being covered 
 	- length of list
 	- list value
 	- index
+	- operators:
+		- in
+		- not in
 	- replicate lists
 	- remove items
+	- methods:
+		- .index()
+		- .append()
+		- .insert()
+		- .remove()
+		- del statement
+		- .sort():
+		- kwargs:
+			- reverse = True
+			- key = str.lower
 - loops:
 	- for
 	- while:

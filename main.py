@@ -1,4 +1,19 @@
-phonetics = ['alfa','bravo','charlie','delta']
+def collatz(n):
+	while n != 1:
+		print(n)
+		if n % 2 == 0:
+			n //= 2
+		else:
+			n = (n * 3) + 1
+		print(n)
 
-for index,item in enumerate(phonetics):
-	print(f'the Index for {item} is {index}')
+try:
+	print('Input your integer: ')
+	v = int(input())
+	if v < 0:
+		v = abs(v)
+		print('No negative numbers')
+	else:
+		collatz(v)
+except ValueError:
+	print('Only integers')
