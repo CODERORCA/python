@@ -4,7 +4,13 @@ The .py files in this repository are as evidence. While they are nothing spectac
 A single basic skill may not create a fully functional program, but a collection of them is.
 Mandatory basic knowledge that every developer should know is not being covered such as what is a variable or what is an operator.
 
-## Knowledge and skills covered (in alphabetic order)
+## Knowledge and skills covered (in alphabetic order):
+- casting:
+	- str()
+	- int()
+	- float()
+	- list()
+	- tuple()
 - conditional statement:
 	- if, elif, else
 	- nested if
@@ -22,9 +28,12 @@ Mandatory basic knowledge that every developer should know is not being covered 
 	- arguments
 	- pass
 	- enumerate()
+	- id()
+	- len()
 	- random:
-		- .choice
-		- .shuffle
+		- .choice()
+		- .shuffle()
+	- range()
 - imports:
 	- random:
 		- .randint()
@@ -44,14 +53,14 @@ Mandatory basic knowledge that every developer should know is not being covered 
 		- in
 		- not in
 	- replicate lists
-	- remove items
 	- methods:
 		- .index()
 		- .append()
 		- .insert()
 		- .remove()
-		- del statement
+		- del []
 		- .sort():
+		- .reverse()
 		- kwargs:
 			- reverse = True
 			- key = str.lower
@@ -67,5 +76,6 @@ Mandatory basic knowledge that every developer should know is not being covered 
 	- local
 	- global:
 		- statement
+- tuples
 
 More will come!
