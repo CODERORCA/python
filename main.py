@@ -1,43 +1,18 @@
-# ~ References 
-# ~ Technically, what Variables do is store a reference to the actual value
-# ~ meaning you can change the value of a variable later on while still being capable
-# ~ to access the previous value through another reference.
+import random,copy
 
-# ~ Here is a simplified example:
+width = 3
+height = 2
 
-# ~ Variable alpha is being assigned the Value
-alpha = 42
+row = []
+print(row)
+alpha = ['a','b','c']
+beta = ['d','e','f']
+row.append(alpha)
+row.append(beta)
+print(row)
 
-# ~ Variable beta is having the same Value as Alpha, which creates a reference
-beta = alpha
-
-# ~ Now variable alpha receives a new Value. However, since beta is refering to the previous value of alpha, the value of beta won't change
-alpha = 100
-
-# ~ The result is alpha is 100, Beta is 42
-print(alpha)	# is 100
-print(beta)		# is 42
-
-# ~ That's why the order of the code matters as it determines the Value. This is one of the important aspects of reading and understanding code.
-# ~ Example broken down into pseudocode. Each line of code gets executed from top to bottom, step by step
-
-# ~ alpha is 42:				# alpha is being assigned a value
-	# ~ beta is value of alpha	# beta has same value as alpha
-	# ~ return value of beta	# since beta is refering to alpha before it gets overwritten, our expression will result in printing out the previous value
-	
-# ~ alpha is 100:				# alpha gets a new value and overwrites the old value
-	# ~ return value of alpha	# since nothing else refers to alpha, it returns the new value
-
-# ~ That way we can store values to the same Variable without losing access to it, since after each step the old Value is deleted and gets forgotten after execution
-
-# ~ however, this does not work w/ lists
-gamma = ['Tango','Uniform','Victor']
-delta = gamma
-gamma[1] = 'Whiskey'
-print(gamma)
-print(delta)
-
-# ~ What actually happens is Variables actually do not contain values. 
-# ~ They are a "Reference" to a Value. Pyton internally assigns an ID, to which a reference can pinpoint to let python know what we want to access. 
-# ~ So in essence, Variables are a Reference to a Value, even though people casually say a Variable contains a value.
-# ~ That explains why both Variable gamma and delta resulted ro return the same items inside the list, because both are referencing to the same list. No new list has been created or copied (and in essence list items did not get copied)
+currentCells = copy.deepcopy(row)
+for y in range(height):
+	for x in range(width):
+		print(currentCells[x][y],end='')
+	print()

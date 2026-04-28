@@ -38,5 +38,4 @@ print(f"Result for delta: {delta}, ID: {id(delta)}\n")
 # ~ What actually happens is Variables actually do not contain values. 
 # ~ They are a "Reference" to a Value. Pyton internally assigns an ID, to which a reference can pinpoint to let python know what we want to access. 
 # ~ So in essence, Variables are a Reference to a Value, even though people casually say a Variable contains a value.
-# ~ That explains why both Variable gamma and delta resulted ro return the same items inside the list, because both are referencing to the same list. No new list has been created or copied (and in essence list items did not get copied)
-
+# ~ That explains why both Variable gamma and delta resulted ro return the same items inside the list, because both are referencing to the same list. No new list has been created or copied (and in essence list items did not get copied
