@@ -1,18 +1,15 @@
-import random,copy
+def commaCode(alpha):
+	for x in range(len(alpha)-1):
+		print(f"{alpha[x]}", end='')
+	print(f'and {alpha[x+1]}')
+	
+beta = []
 
-width = 3
-height = 2
+while True:
+	gamma = input('Type your item')
+	if gamma != '':
+		beta.append[item]
+	else:
+		break
 
-row = []
-print(row)
-alpha = ['a','b','c']
-beta = ['d','e','f']
-row.append(alpha)
-row.append(beta)
-print(row)
-
-currentCells = copy.deepcopy(row)
-for y in range(height):
-	for x in range(width):
-		print(currentCells[x][y],end='')
-	print()
+commaCode(beta)
