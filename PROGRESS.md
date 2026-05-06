@@ -30,16 +30,22 @@ Mandatory basic knowledge that every developer should know is not being covered 
 	- enumerate()
 	- id()
 	- len()
+	- range()
 	- random:
 		- .choice()
 		- .shuffle()
 	- range()
-- imports:
+- modules:
 	- random:
 		- .randint()
 		- .choice()
 	- sys:
 		- .exit()
+	- time:
+		- .sleep()
+	- copy:
+		- copy()
+		- .deepcopy()
 - input:
 	- abs()
 	- int()
